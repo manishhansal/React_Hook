@@ -1,4 +1,5 @@
 import './App.css';
+import UseCallBackExample from './UseCallBack/UseCallBackExample';
 import UseContextExample from './UseContext/UseContextExample';
 import UseEffectExample from './UseEffect/UseEffectExample';
 import UseImperativeHandleExample from './UseImperativeHandle/UseImperativeHandleExample';
@@ -18,7 +19,8 @@ function App() {
       {/* <UseLayoutEffectExample/> */}
       {/* <UseImperativeHandleExample/> */}
       {/* <UseContextExample/> */}
-      <UseMemoExample/>
+      {/* <UseMemoExample/> */}
+      <UseCallBackExample/>
     </div>
   );
 }
