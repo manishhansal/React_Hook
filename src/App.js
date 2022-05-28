@@ -1,4 +1,5 @@
 import './App.css';
+import UseContextExample from './UseContext/UseContextExample';
 import UseEffectExample from './UseEffect/UseEffectExample';
 import UseImperativeHandleExample from './UseImperativeHandle/UseImperativeHandleExample';
 import UseLayoutEffectExample from './UseLayoutEffect/UseLayoutEffectExample';
@@ -14,7 +15,8 @@ function App() {
       {/* <UseEffectExample/> */}
       {/* <UseRefExample/> */}
       {/* <UseLayoutEffectExample/> */}
-      <UseImperativeHandleExample/>
+      {/* <UseImperativeHandleExample/> */}
+      <UseContextExample/>
     </div>
   );
 }
