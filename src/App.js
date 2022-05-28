@@ -1,5 +1,6 @@
 import './App.css';
 import UseEffectExample from './UseEffect/UseEffectExample';
+import UseImperativeHandleExample from './UseImperativeHandle/UseImperativeHandleExample';
 import UseLayoutEffectExample from './UseLayoutEffect/UseLayoutEffectExample';
 import UseReducerExample from './UseReducer/UseReducerExample';
 import UseRefExample from './UseRef/UseRefExample';
@@ -12,7 +13,8 @@ function App() {
       {/* <UseReducerExample/> */}
       {/* <UseEffectExample/> */}
       {/* <UseRefExample/> */}
-      <UseLayoutEffectExample/>
+      {/* <UseLayoutEffectExample/> */}
+      <UseImperativeHandleExample/>
     </div>
   );
 }
