@@ -3,6 +3,7 @@ import UseContextExample from './UseContext/UseContextExample';
 import UseEffectExample from './UseEffect/UseEffectExample';
 import UseImperativeHandleExample from './UseImperativeHandle/UseImperativeHandleExample';
 import UseLayoutEffectExample from './UseLayoutEffect/UseLayoutEffectExample';
+import UseMemoExample from './UseMemo/UseMemoExample';
 import UseReducerExample from './UseReducer/UseReducerExample';
 import UseRefExample from './UseRef/UseRefExample';
 import UseStateExample from './UseState/UseStateExample';
@@ -16,7 +17,8 @@ function App() {
       {/* <UseRefExample/> */}
       {/* <UseLayoutEffectExample/> */}
       {/* <UseImperativeHandleExample/> */}
-      <UseContextExample/>
+      {/* <UseContextExample/> */}
+      <UseMemoExample/>
     </div>
   );
 }
